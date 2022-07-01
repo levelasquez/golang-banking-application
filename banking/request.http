@@ -1,0 +1,11 @@
+### Get all customers
+GET http://localhost:8000/customers
+# Content-Type: application/xml
+# Content-Type: application/json
+
+### Get a customer by id
+GET http://localhost:8000/customers/1
+
+
+### Create a customer
+POST http://localhost:8000/customers
